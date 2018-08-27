@@ -1,1 +1,1 @@
-# Germaine-s_proyect
+# Germaine-s_project
