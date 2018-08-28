@@ -1,0 +1,65 @@
+/**General Styles**/
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.main-content{
+    margin: 10px;
+    color:  #8A4B08;
+    font-size: 20px;
+
+}
+/**End general Styles*/
+/*Header*/
+.header{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    padding: 10px;
+    height: 120px;
+    border-bottom: 3px solid #819FF7;
+}
+
+a {
+    text-align: center;
+    font-size:22px; 
+    color: #8A4B08;
+    text-decoration: none;
+    margin-left: 35px; 
+}
+/*End header*/
+/*Content Styles*/
+.content{
+    
+    width: 100%;
+    
+}
+.sidebar{
+    height: 100%;
+    float: right;
+    width: 28%;
+    box-sizing: border-box; 
+    padding:1%;
+}
+.info{
+    width: 68%;
+    box-sizing: border-box;
+    padding: 1%;
+}
+/*End content Styles*/
+
+/*Footer Styles*/
+.footer{
+    margin: 10px 10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 80px;
+    border: #819FF7 3px solid;
+}
+.footer img{
+    margin: 0;
+    padding: 2px;
+    height: 60px;
+    width: 60px;
+}
+/*End General Styles, End Principal page, main styles*/
