@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+//general elements
+a{
+    text-decoration: none;
+    color: $anchors;
+}
+p{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    margin-bottom: 2%;
+}
+h3{
+    margin: 0;
+   margin-bottom: 3%;
+}
+.main-content {
+    font-family: "helvetiva", sans-serif;
+    padding: 2%;
+}
+// header 
+.header a {
+    margin-right: 2%;
+    &:hover{
+        color: $anchors-h;
+        border-bottom: 2px solid $anchors-h;
+    }
+}
+.menu{
+    width: 30%;
+    float: right;
+}
+
+//content 
+.content {
+margin-top: 3%;
+padding: 2% 0;
+}
+.sidebar{
+    width: 23%;
+    float: right;
+}
+.info{
+    width: 73%;
+}
+//footer
+.footer {
+    margin-top: 2%;
+    text-align: center;
+    border-top: 2px solid $anchors;
+}
+.footer a{
+    padding: 2%;
+}
+.footer img{
+    height: 50px;
+}

@@ -1,100 +1,56 @@
-/**General Styles**/
-body{
-    font-family: 'Dosis', sans-serif;
-}
-.main-content{
-    margin: 10px;
-    color:  #8A4B08;
-    font-size: 20px;
-
-}
-/**End general Styles*/
-/*Header*/
-.header{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-    padding: 10px;
-    height: 120px;
-    border-bottom: 3px solid #819FF7;
-    margin: 10px 10px;
-}
+* {
+  padding: 0;
+  margin: 0; }
 
 a {
-    text-align: center;
-    font-size:22px; 
-    color: #8A4B08;
-    text-decoration: none;
-    margin-left: 35px; 
-}
-/*End header*/
-/*Content Styles*/
-.content{
-    
-    width: 100%;
-    
-}
-.sidebar{
-    height: 100%;
-    float: right;
-    width: 28%;
-    box-sizing: border-box; 
-    padding:1%;
-}
-.info{
-    width: 68%;
-    box-sizing: border-box;
-    padding: 1%;
-}
-/*End content Styles*/
+  text-decoration: none;
+  color: #f15b40; }
 
-/*Footer Styles*/
-.footer{
-    margin: 10px 10px;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-    height: 80px;
-    border: #819FF7 3px solid;
-}
-.footer img{
-    margin: 0;
-    padding: 2px;
-    height: 60px;
-    width: 60px;
-}
-/*End General Styles, End Principal page, main styles*/
+p {
+  margin: 0; }
 
+h2 {
+  margin: 0;
+  margin-bottom: 2%; }
 
+h3 {
+  margin: 0;
+  margin-bottom: 3%; }
 
+.main-content {
+  font-family: "helvetiva", sans-serif;
+  padding: 2%; }
 
-/*Contacto*/
-form{
-    margin: auto;
-    padding: 10px;
-    width: 400px;
-    border: #8A4B08 2px solid; 
-    box-sizing: border-box;
-    text-align: center;
-}
-textarea, input{
- width: 100%;
- margin-bottom: 10px;
- padding: 7px;
- box-sizing: border-box;
- font-size: 18px;
-}
+.header a {
+  margin-right: 2%; }
+  .header a:hover {
+    color: #67abb8;
+    border-bottom: 2px solid #67abb8; }
 
-textarea {
-    min-height: 200px;
-    max-height: 200px;
-    max-width: 350px;
-    min-width: 350px;
-}
-.button{
-    background: #502b03;
-}
-.button:hover{
- background: #0a2e03e0;
-}
-/*End Contacto*/
+.menu {
+  width: 30%;
+  float: right; }
+
+.content {
+  margin-top: 3%;
+  padding: 2% 0; }
+
+.sidebar {
+  width: 23%;
+  float: right; }
+
+.info {
+  width: 73%; }
+
+.footer {
+  margin-top: 2%;
+  text-align: center;
+  border-top: 2px solid #f15b40; }
+
+.footer a {
+  padding: 2%; }
+
+.footer img {
+  height: 50px; }
+
+/*# sourceMappingURL=styles.css.map */
